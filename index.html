@@ -163,19 +163,18 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".label,.descrizione,.territorio,.data_inserimento"  
-					ex:columnLabels="Nome, Descrizione,Territorio, Data creazione" 
-					ex:columnFormats="list,list,list,list"
+					ex:columns=".label,.descrizione,.data_inserimento"  
+					ex:columnLabels="Nome, Descrizione, Data creazione" 
+					ex:columnFormats="list,list,list"
 					ex:sortColumn="0"
 					ex:sortAscending="true"
 					ex:tableStyler="tableStyler"> 
 					<div ex:role="exhibit-lens">
 						<div class="table-responsive">
-							<table class="table" ex:class-content=".territorio">
+							<table class="table">
 								<tr>
 									<td><strong><span ex:content=".label"></strong></td>
 									<td><span ex:content=".descrizione"></td>
-									<td><span ex:content=".territorio"></span></td>
 									<td><span ex:content=".data_creazione" ></span></td>
 								</tr>
 							</table>
