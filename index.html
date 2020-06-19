@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>open data Palermo: priorità di pubblicazione dei dataset</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="open data Palermo: priorità di pubblicazione dei dataset">
+	<meta name="description" content="servizi comune palermo: catalogo servizi comune palermo da carta dei servizi">
 	<meta name="author" content="OpenDataSicilia">
 
 	<!-- <meta property="og:image" content="http://petrusino.opendatasicilia.it/img/share.jpg" />
@@ -37,7 +37,7 @@
 
     <link rel="exhibit/data" 
     type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1K--jrKarvlNUN0D2A3xrgXRVAvIttgMVwLrJW0AdwYE/od6/public/basic?alt=json-in-script"
+    href="https://spreadsheets.google.com/feeds/list/1dAzLOYKEKfq_YelJ8DFO6XoxygcC0lWGxK2_-IQy9MI/od6/public/basic?alt=json-in-script"
     ex:converter="googleSpreadsheets" />
 
 
@@ -68,7 +68,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li class="active">
-								<a href="./index.html">Home</a>
+								<a href="./index.html">servizi del comune di Palermo</a>
 							</li>
 							<!-- <li>
 								<a href="./cosa.html">Cosa &egrave;</a>
@@ -126,29 +126,29 @@
 			<div class="col-md-6 column">
 				<div ex:role="facet" 
 				ex:facetClass="Cloud"
-				ex:expression=".categoria" 
-				ex:facetLabel="Categoria"
+				ex:expression=".categoria_servizi" 
+				ex:facetLabel="categoria servizi"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet" 
-				ex:expression=".formato" 
-				ex:facetLabel="Formato"
+				ex:expression=".servizio_erogabile_online" 
+				ex:facetLabel="servizio erogabile online"
 				ex:missingLabel="Non specificato"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet" 
-				ex:expression=".struttura" 
-				ex:facetLabel="Struttura"
+				ex:expression=".smart_ordinaria" 
+				ex:facetLabel="servizio smart o ordinario"
 				ex:missingLabel="Non specificato"
 				ex:sortMode="count">
 				</div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet" 
-				ex:expression=".categoria" 
-				ex:facetLabel="Categoria"
+				ex:expression=".accesso_servizio" 
+				ex:facetLabel="accesso al servizio"
 				ex:missingLabel="Non specificato"
 				ex:sortMode="count">
 				</div>
@@ -163,8 +163,8 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".label,.descrizione,.data_inserimento"  
-					ex:columnLabels="Nome, Descrizione, Data creazione" 
+					ex:columns=".categoria_servizi,.denominazione_servizi,.link_carta servizi"  
+					ex:columnLabels="categoria servizio, denominazione servizio, link carta servizi" 
 					ex:columnFormats="list,list,list"
 					ex:sortColumn="0"
 					ex:sortAscending="true"
@@ -173,9 +173,9 @@
 						<div class="table-responsive">
 							<table class="table">
 								<tr>
-									<td><strong><span ex:content=".label"></strong></td>
-									<td><span ex:content=".descrizione"></td>
-									<td><span ex:content=".data_creazione" ></span></td>
+									<td><strong><span ex:content=".categoria_servizi"></strong></td>
+									<td><span ex:content="..denominazione_servizi"></td>
+									<td><span ex:content=".link_carta servizi" ></span></td>
 								</tr>
 							</table>
 						</div>
