@@ -45,19 +45,19 @@ ul.share-buttons li{
 }
 
 ul.nav li a, ul.nav li a:visited {
-    color: #47A447 !important;
+    color: #db0404 !important;
 }
 
 ul.nav li a:hover, ul.nav li a:active {
-    color: #47A447 !important;
+    color: #db0404 !important;
 }
 
 ul.nav li.active a {
-    color: #47A447 !important;
+    color: #db0404 !important;
 }
 
 a {
-    color: #47A447 !important;
+    color: #db0404 !important;
 }
 
 /* rimosso momentaneamente export tool */
