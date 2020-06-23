@@ -4,6 +4,6 @@
 
 ![](https://raw.githubusercontent.com/cirospat/servizi-comunepalermo/gh-pages/img/amministrazione-trasparente.png)
 
-### ↓ ad una [**interfaccia facile per il cittadino che cerca i servizi**](https://cirospat.github.io/servizi-comunepalermo)
+### ↓ ad una [**interfaccia facile e interattiva per il cittadino che cerca i servizi**](https://cirospat.github.io/servizi-comunepalermo)
 
 ![](https://raw.githubusercontent.com/cirospat/servizi-comunepalermo/gh-pages/img/interfaccia-servizi-comunali.png)
