@@ -1,12 +1,13 @@
 # Servizi online del comune di Palermo
 
-Questo progetto intende dimostrare come una pagina web con l'elencazione delle carte dei servizi comunali in formato `PDF` non è consona alle esigenze dei cittadini che cercano informazioni, da dispositivi mobili, su come fruire un servizio pubblico comunale. I formati `PDF` non rappresentano un formato accessibile da mobile. Il maggiore traffico web nel 2020 avviene da dispositivi mobili, ed è per questo motivo che non bisogna offrire informazioni relative alla fruizione dei servizi comunali proprio nel formato `PDF`. 
+Questo progetto intende dimostrare come una pagina web con l'elencazione delle carte dei servizi comunali in formato `PDF` non è più rispondente alle esigenze dei cittadini che cercano informazioni, da dispositivi mobili, su come fruire un servizio pubblico comunale. 
+I formati `PDF` non rappresentano un formato accessibile da mobile. Il maggiore traffico web nel 2020 avviene da dispositivi mobili, ed è per questo motivo che non bisogna offrire informazioni relative alla fruizione dei servizi comunali proprio nel formato `PDF`. 
 Oggi il cittadino per conoscere le informazioni di fruizione di un servizio comunale deve compiere le seguenti azioni:
 
-- andare nella piattaforma dei [**servizi online** (per fruire dei servizi)](https://servizionline.comune.palermo.it/portcitt/jsp/home.do?sportello=portcitt). Questa pagina è solo per la fruizione del servizio e non per le informazioni utili a capire come si fruisce. 
-- andare alla pagina dei [**servizi erogati** dentro Amministrazione Trasparente / Servizi erogati](https://www.comune.palermo.it/amministrazione_trasparente.php?sel=16&asel=72). Scorrere la pagina per cercare il servizio a cui è interessato. 
-- aprirsi due distinti file PDF in cui sono racchiuse le informazioni su come si fruisce il servizio (**1- carta dei servizi**, **2- carta dei servizi informazioni utili**).
-- andare alla pagina [**modulistica**](https://www.comune.palermo.it/modulistica.php) per scaricare il modulo specifico.
+1 andare nella piattaforma dei [**servizi online** (per fruire dei servizi)](https://servizionline.comune.palermo.it/portcitt/jsp/home.do?sportello=portcitt). Questa pagina è solo per la fruizione del servizio e non per le informazioni utili a capire come si fruisce. 
+2 andare alla pagina dei [**servizi erogati** dentro Amministrazione Trasparente / Servizi erogati](https://www.comune.palermo.it/amministrazione_trasparente.php?sel=16&asel=72). Scorrere la pagina per cercare il servizio a cui è interessato. 
+3 aprirsi due distinti file PDF in cui sono racchiuse le informazioni su come si fruisce il servizio (**1- carta dei servizi**, **2- carta dei servizi informazioni utili**).
+4 andare alla pagina [**modulistica**](https://www.comune.palermo.it/modulistica.php) per scaricare il modulo specifico.
 
 
 ## Proposta di un catalogo interattivo dei servizi comunali
