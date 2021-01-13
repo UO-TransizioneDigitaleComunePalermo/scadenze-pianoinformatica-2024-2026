@@ -162,23 +162,24 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".area,.settore,.denominazione_procedimento,.lavoro_agile,.email_responsabile_procedimento,.telefono_info,.link_scheda"  
-					ex:columnLabels="area, settore, procedimento, lavoro agile, email, telefono, link" 
-					ex:columnFormats="list,list,list,list,list,list,list"
-					ex:sortColumn="7"
+					ex:columns=".denominazione_procedimento,.area,.settore,.lavoro_agile,.email_responsabile_procedimento,.telefono_info"  
+					ex:columnLabels="procedimento, area, settore, lavoro agile, email, telefono" 
+					ex:columnFormats="list,list,list,list,list,list"
+					ex:sortColumn="6"
 					ex:sortAscending="false"
 					ex:tableStyler="tableStyler"> 
 					<div ex:role="exhibit-lens">
 						<div class="table-responsive">
 							<table class="table">
 								<tr>
-									<td><strong><span ex:content=".area"></strong></td>
-									<td><span ex:content=".settore"></td>
-									<td><span ex:content=".denominazione_procedimento"></span></td>
+									<!-- <td><strong><span ex:content=".area"></strong></td> -->
+									<td><a ex:href-content=".link" ex:onclick-subcontent="trackOutboundLink('{{.link}}'); return false;" target="_blank"><strong><span ex:content=".denominazione_procedimento" class="accussì"></strong></span></a></td>
+									<td><span ex:content=".denominazione_procedimento"></td>
+									<td><span ex:content=".area"></span></td>
 									<td><span ex:content=".lavoro_agile"></span></td>
 									<td><span ex:content=".email_responsabile_procedimento"></span></td>
 									<td><span ex:content=".telefono_info"></span></td>
-									<td><span ex:content=".link_scheda"></span></td>
+									<!-- <td><span ex:content=".link_scheda"></span></td> -->
 								</tr>
 							</table>
 						</div>
