@@ -37,7 +37,7 @@
 
     <link rel="exhibit/data" 
     type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1dAzLOYKEKfq_YelJ8DFO6XoxygcC0lWGxK2_-IQy9MI/od6/public/basic?alt=json-in-script"
+    href="https://spreadsheets.google.com/feeds/list/1EgbulRESoJhV-5k5LwwBJOopjD4RRtVbiFPfILJML0I/od6/public/basic?alt=json-in-script"
     ex:converter="googleSpreadsheets" />
 
 
@@ -68,7 +68,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li class="active">
-								<a href="./index.html"><b>Catalogo dei servizi del Comune di Palermo</b></a>
+								<a href="./index.html"><b>Catalogo dei procedimenti amministrativi del Comune di Palermo</b></a>
 							</li>
 							<li>
 								<a href="https://sites.google.com/comune.palermo.it/servizicomunepalermo/scheda-tipo-dei-servizi" target="_blank">Scheda tipo servizi comunali</a>
@@ -99,15 +99,10 @@
 
 			
 			<div class="col-md-12 column">
-			<h3>Semplicità per i cittadini nella fruizione dei servizi comunali</h3></p>
-			Le informazioni esposte in questa piattaforma sono tratte dalle 
-			<a href="https://www.comune.palermo.it/amministrazione_trasparente.php?sel=16&asel=72" target="_blank"><strong>carte dei servizi comunali</strong></a>, 
-			dalla sezione <a href="https://www.comune.palermo.it/modulistica.php" target="_blank"><strong>modulistica</strong></a> del sito web istituzionale, 
-			dai link degli applicativi presenti nel <a href="https://servizionline.comune.palermo.it" target="_blank"><strong>portale dei servizi online</strong></a>,
-			e inserite in <a href="https://docs.google.com/spreadsheets/d/1z_W4tiBco8-p4n8uLL818jrgiPdqyXDUSq_2-Y65NN8/edit?pli=1#gid=332313528" target="_blank"><strong>questo file di Google spreadsheet</strong></a>
-			che alimenta automaticamente questa visualizzazione. <br> 
-			Lo scopo di questa piattaforma è consentire all'utente una <code>facile consultazione delle informazioni per fruire i servizi comunali</code>, facendo restare l'utente nella stessa
-			pagina web senza dargli l'onere di trovare le informazioni sui servizi in diverse sezioni del sito istituzionale.
+			<h3>Semplicità per i cittadini nella fruizione dei procedimenti amministrativi comunali</h3></p>
+			Le informazioni esposte in questa piattaforma sono tratte dalla ricognizione dei procedimenti effettuate dagli uffici comunali nel dicembre 2020 
+			<br> 
+			Lo scopo di questa piattaforma è consentire all'utente una <code>facile consultazione delle informazioni sui procedimenti amministrativi del comune di Palermo</code>.
 			</p>
 			</div>
 	
@@ -125,7 +120,7 @@
 
 			</div>
 			<div class="col-md-9 column">
-				<button type="button" class="btn btn-danger"><b>Cerca i servizi</b></button> <b>↓</b> 
+				<button type="button" class="btn btn-danger"><b>Cerca i procedimenti amministrativi</b></button> <b>↓</b> 
 				<img src="https://img.shields.io/badge/digita-e_ti_fornisco_risposte_immediate-red.svg" /></a><div ex:role="facet" ex:facetClass="TextSearch"></div>
 			</div>
 			
@@ -137,23 +132,23 @@
 			<div class="col-md-8 column">
 				<div ex:role="facet" 
 				ex:facetClass="Cloud"
-				ex:expression=".categoria_servizi" 
-				ex:facetLabel="categoria servizi"
+				ex:expression=".area" 
+				ex:facetLabel="area"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet" 
-				ex:expression=".servizio_accessibile_online" 
-				ex:facetLabel="servizio accessibile online"
+				ex:expression=".lavoro_agile" 
+				ex:facetLabel="lavoro agile"
 				ex:missingLabel="Non specificato"
 				ex:sortMode="count"></div>
 			
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet" 
-				ex:expression=".accesso_servizio" 
-				ex:facetLabel="modalità di accesso al servizio"
-				ex:missingLabel="accesso fisico"
+				ex:expression=".settore" 
+				ex:facetLabel="settore"
+				ex:missingLabel="altro"
 				ex:sortMode="count">
 				</div>
 			</div>
@@ -167,22 +162,23 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".categoria_servizi,.denominazione_servizi,.link_carta_servizi,.modulistica,.link_servizio,.responsabile_procedimento_servizio"  
-					ex:columnLabels="categoria, servizio, carta servizi, moduli, accesso al servizio, resp. procedim. servizio" 
-					ex:columnFormats="list,list,list,list,list,list"
-					ex:sortColumn="6"
+					ex:columns=".area,.settore,.denominazione_procedimento,.lavoro_agile,.email_responsabile_procedimento,.telefono_info,.link_scheda"  
+					ex:columnLabels="area, settore, procedimento, lavoro agile, email, telefono, link" 
+					ex:columnFormats="list,list,list,list,list,list,list"
+					ex:sortColumn="7"
 					ex:sortAscending="false"
 					ex:tableStyler="tableStyler"> 
 					<div ex:role="exhibit-lens">
 						<div class="table-responsive">
 							<table class="table">
 								<tr>
-									<td><strong><span ex:content=".categoria_servizi"></strong></td>
-									<td><span ex:content=".denominazione_servizi"></td>
-									<td><span ex:content=".link_carta_servizi"></span></td>
-									<td><span ex:content=".modulistica"></span></td>
-									<td><span ex:content=".link_servizio"></span></td>
-									<td><span ex:content=".responsabile_procedimento_servizio"></span></td>
+									<td><strong><span ex:content=".area"></strong></td>
+									<td><span ex:content=".settore"></td>
+									<td><span ex:content=".denominazione_procedimento"></span></td>
+									<td><span ex:content=".lavoro_agile"></span></td>
+									<td><span ex:content=".email_responsabile_procedimento"></span></td>
+									<td><span ex:content=".telefono_info"></span></td>
+									<td><span ex:content=".link_scheda"></span></td>
 								</tr>
 							</table>
 						</div>
