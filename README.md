@@ -1,4 +1,4 @@
-[!][img](https://raw.githubusercontent.com/UO-TransizioneDigitaleComunePalermo/procedimenti-amministrativi-comunepalermo/gh-pages/img/comune-palermo-innovazione.png)
+![image](https://raw.githubusercontent.com/UO-TransizioneDigitaleComunePalermo/procedimenti-amministrativi-comunepalermo/gh-pages/img/comune-palermo-innovazione.png)
 
 # `Catalogo` delle attività relative ai procedimenti amministrativi del comune di Palermo
 
