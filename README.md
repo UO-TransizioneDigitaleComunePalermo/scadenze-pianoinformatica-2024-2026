@@ -8,7 +8,7 @@ Il lavoro per la visualizzazione delle informazioni su questa piattaforma è sta
 Il link al catalogo è [https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-comunepalermo/](https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-comunepalermo/)
 
 ### Gli strumenti principali usati per realizzare la visualizzazione del `catalogo` sono quattro:
-- Simile Exhibit, per realizzare l'interfaccia di navigazione del catalogo;
-- Twitter Boostrap, per dare un po' di stile alle pagine pubblicate;
-- GDrive Sheet, per raccogliere e distribuire i dati che fanno da sorgente;
-- GitHub Pages, per l'hosting dei file che costituiscono questa visualizzazione.
+- [**Simile Exhibit**](http://www.simile-widgets.org/exhibit3/), per realizzare l'interfaccia di navigazione del catalogo;
+- [**Twitter Boostrap**](http://getbootstrap.com/), per dare un po' di stile alle pagine pubblicate;
+- [**GDrive Sheet**](https://www.google.com/sheets/about/), per raccogliere e distribuire i dati che fanno da sorgente;
+- [**GitHub Pages**](https://pages.github.com/), per l'hosting dei file che costituiscono questa visualizzazione.
