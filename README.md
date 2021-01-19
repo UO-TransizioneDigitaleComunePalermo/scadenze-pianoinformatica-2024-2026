@@ -4,7 +4,7 @@ Le informazioni esposte nel catalogo derivano dalla ricognizione dei procediment
 
 Il lavoro per la visualizzazione delle informazioni su questa piattaforma è stato realizzato nel gennaio 2021 da **Ciro Spataro** e **Sergio Schimicci** dell'**U.O. Transizione al digitale**, Servizio Innovazione, Settore Servizi Direzione Generale, per permettere una agevole consultazione delle informazioni sulle attività dei procedimenti amministrativi.
 
-## Catalogo online
+## `Catalogo` online 
 Il link al catalogo è [https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-comunepalermo/](https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-comunepalermo/)
 
 ### Gli strumenti principali usati per realizzare la visualizzazione del `catalogo` sono quattro:
