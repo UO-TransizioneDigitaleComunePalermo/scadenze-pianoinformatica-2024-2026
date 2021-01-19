@@ -7,7 +7,7 @@ Il lavoro per la visualizzazione delle informazioni su questa piattaforma è sta
 ## Catalogo online
 Il link al catalogo è [https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-comunepalermo/](https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-comunepalermo/)
 
-### Gli strumenti principali usati per realizzare questa visualizzazione sono quattro:
+### Gli strumenti principali usati per realizzare la visualizzazione del `catalogo` sono quattro:
 - Simile Exhibit, per realizzare l'interfaccia di navigazione del catalogo;
 - Twitter Boostrap, per dare un po' di stile alle pagine pubblicate;
 - GDrive Sheet, per raccogliere e distribuire i dati che fanno da sorgente;
