@@ -154,8 +154,8 @@
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet" 
-				ex:expression=".settore" 
-				ex:facetLabel="settore"
+				ex:expression=".servizio" 
+				ex:facetLabel="servizio"
 				ex:missingLabel="altro"
 				ex:sortMode="count">
 				</div>
@@ -170,8 +170,8 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".denominazione_procedimento,.area,.settore,.lavoro_agile,.email_responsabile_procedimento,.telefono_info,.rif"  
-					ex:columnLabels="procedimento, area, settore, lavoro agile, email, telefono, rif" 
+					ex:columns=".denominazione_procedimento,.area,.servizio,.lavoro_agile,.email_responsabile_procedimento,.telefono_info,.rif"  
+					ex:columnLabels="procedimento, area, servizio, lavoro agile, email, telefono, rif" 
 					ex:columnFormats="list,list,list,list,list,list,list"
 					ex:sortColumn="7"
 					ex:sortAscending="true"
@@ -183,7 +183,7 @@
 									<!-- <td><strong><span ex:content=".area"></strong></td> -->
 									<td><a ex:href-content=".link_scheda" ex:onclick-subcontent="trackOutboundLink('{{.link_scheda}}'); return false;" target="_blank"><strong><span ex:content=".denominazione_procedimento" class="accussì"></strong></span></a></td>
 									<td><span ex:content=".area"></td>
-									<td><span ex:content=".settore"></span></td>
+									<td><span ex:content=".servizio"></span></td>
 									<td><span ex:content=".lavoro_agile"></span></td>
 									<td><span ex:content=".email_responsabile_procedimento"></span></td>
 									<td><span ex:content=".telefono_info"></span></td>
