@@ -1,5 +1,3 @@
-![image](https://raw.githubusercontent.com/UO-TransizioneDigitaleComunePalermo/procedimenti-amministrativi-comunepalermo/gh-pages/img/comune-palermo-innovazione.png)
-
 # `Catalogo` dei progetti con fondi extra comunali del comune di Palermo
 
 
