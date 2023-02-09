@@ -147,16 +147,16 @@
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet" 
-				ex:expression=".lavoro_agile" 
-				ex:facetLabel="lavoro agile"
+				ex:expression=".rup" 
+				ex:facetLabel="rup"
 				ex:missingLabel="Non specificato"
 				ex:sortMode="count"></div>
 			
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet" 
-				ex:expression=".servizio" 
-				ex:facetLabel="servizio"
+				ex:expression=".programma" 
+				ex:facetLabel="programma"
 				ex:missingLabel="altro"
 				ex:sortMode="count">
 				</div>
@@ -171,8 +171,8 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".denominazione_procedimento,.area,.servizio,.lavoro_agile,.email_responsabile_procedimento,.telefono_info,.rif"  
-					ex:columnLabels="procedimento, area, servizio, lavoro agile, email, telefono, rif" 
+					ex:columns=".azione,.programma,.rup,.area,.settore_ufficio,.servizio_funzione,.rif"  
+					ex:columnLabels="azione, programma, rup, area, settore_ufficio, servizio_funzione, rif" 
 					ex:columnFormats="list,list,list,list,list,list,list"
 					ex:sortColumn="7"
 					ex:sortAscending="true"
@@ -181,13 +181,13 @@
 						<div class="table-responsive">
 							<table class="table">
 								<tr>
-									<!-- <td><strong><span ex:content=".area"></strong></td> -->
-									<td><a ex:href-content=".link_scheda" ex:onclick-subcontent="trackOutboundLink('.link_scheda'); return false;" target="_blank"><strong><span ex:content=".denominazione_procedimento" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".area"></td>
-									<td><span ex:content=".servizio"></span></td>
-									<td><span ex:content=".lavoro_agile"></span></td>
-									<td><span ex:content=".email_responsabile_procedimento"></span></td>
-									<td><span ex:content=".telefono_info"></span></td>
+									<!-- <td><strong><span ex:content=".azione"></strong></td> -->
+									<td><a ex:href-content=".link_scheda" ex:onclick-subcontent="trackOutboundLink('.link_scheda'); return false;" target="_blank"><strong><span ex:content=".azione" class="accussì"></strong></span></a></td>
+									<td><span ex:content=".programma"></td>
+									<td><span ex:content=".rup"></span></td>
+									<td><span ex:content=".area"></span></td>
+									<td><span ex:content=".settore_ufficio"></span></td>
+									<td><span ex:content=".servizio_funzione"></span></td>
 									<td><span ex:content=".rif"></span></td>
 									<!-- <td><span ex:content=".link_scheda"></span></td> -->
 								</tr>
