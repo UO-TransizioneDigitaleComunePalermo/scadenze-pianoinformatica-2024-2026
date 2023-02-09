@@ -4,7 +4,7 @@
 
 
 ## `Catalogo` online 
-Il link al catalogo è []()
+Il link al catalogo è [https://uo-transizionedigitalecomunepalermo.github.io/fondi_extracomunali/](https://uo-transizionedigitalecomunepalermo.github.io/fondi_extracomunali/)
 
 ### Gli strumenti principali usati per realizzare la visualizzazione del `catalogo` sono quattro:
 - [**Simile Exhibit**](http://www.simile-widgets.org/exhibit3/), per realizzare l'interfaccia di navigazione del catalogo;
