@@ -1,4 +1,4 @@
-# `Catalogo` dei progetti con fondi extra comunali del comune di Palermo
+# `Catalogo` dei progetti del comune di Palermo gestiti con fondi extra comunali 
 
 
 ## `Catalogo` online 
