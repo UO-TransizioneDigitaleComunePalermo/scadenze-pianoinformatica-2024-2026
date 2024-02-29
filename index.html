@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
 	<meta charset="utf-8">
-	<title>Catalogo dei progetti del comune di Palermo con fondi extra comunali</title>
+	<title>Scadenze del piano triennale per l'informatica 2024-2026</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="progetti del comune di palermo con fondi extra comunali">
 	<meta name="author" content="OpenDataSicilia">
@@ -31,7 +31,7 @@
     <!-- Impostazione funzionante da fine agosto 2021 in poi per agganciare il database che fa da fonte dati -->
     <link rel="exhibit/data" 
     type="text/csv"
-    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRM3o9ApB72YOP7zNOT_CqDJ1VMHPP-4HAg09VPfKCWU3VK79Oajtglc5ufwaRiAkLrSLsg6mRsCZMJ/pub?output=csv" />
+    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSdc4fRokn6A-DgjVyqS_Ajh3EV2Asqey2AqX-zJWvs5iMsQf3ApJ6RQuwUqC12LuJ-7WaiUmv7L71s/pub?gid=144437069&single=true&output=csv" />
 	
 
 	
@@ -45,7 +45,7 @@
 
   
 	
-    <link href="https://zapier.com/engine/rss/43663/p2" rel="alternate" type="application/rss+xml" title="Progetti con fondi extra comunali - comune di Palermo: il feed per rimanere aggiornati sulle nuove risorse inserite" />
+    <link href="https://zapier.com/engine/rss/43663/p2" rel="alternate" type="application/rss+xml" title="Scadenze del piano triennale per l'informatica 2024-2026" />
 
 </head>
 
@@ -64,10 +64,10 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li class="active">
-								<a href="./index.html"><b>Progetti del Comune di Palermo con fondi extra comunali</b></a>
+								<a href="./index.html"><b>Scadenze del piano triennale per l'informatica 2024-2026</b></a>
 							</li>
 							<li>
-								<a href="https://docs.google.com/spreadsheets/d/1BluVzCiaktkzkY4-uC7ZyXl7X0YlrAMxoQVQezYD9S8" target="_blank">Database</a>
+								<a href="https://docs.google.com/spreadsheets/d/1Pr5xImydYoPDv1JFMqgChRSOWTvR5gv41-M4DMBzing" target="_blank">Database</a>
 							</li>  						
 						   
 						    <!-- <li>
@@ -82,7 +82,7 @@
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li>
-								<a href="https://github.com/UO-TransizioneDigitaleComunePalermo/fondi_extracomunali/tree/gh-pages" target="_blank">Codice GitHub</a>
+								<a href="https://github.com/UO-TransizioneDigitaleComunePalermo/scadenze-pianoinformatica-2024-2026/tree/gh-pages" target="_blank">Codice GitHub</a>
 							</li>
 						</ul>
 					</div>
@@ -94,8 +94,8 @@
 	
 					
 			<div class="col-md-12 column">
-			<h3>Dashboard per la consultazione dei progetti gestiti con fondi extra comunali</h3></p>
-		        Aggiornamento dati <code><b>febbraio 2023</b></code> a cura dell'Area Programmazione Fondi Extra Comunali. 
+			<h3>Dashboard per la consultazione delle scadenze relative alle azioni del piano triennale per l'informatica 2024-2026</h3></p>
+		        Fonte dati: Agenzia per l'Italia Digitale. 
 			</p>
 			</div>
 	
@@ -117,31 +117,31 @@
 			<div class="col-md-12 column">
 				<div ex:role="facet" 
 				ex:facetClass="Cloud"
-				ex:expression=".area" 
-				ex:facetLabel="Area"
+				ex:expression=".capitolo" 
+				ex:facetLabel="Capitolo"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet" 
-				ex:expression=".rup" 
-				ex:facetLabel="RUP"
-				ex:missingLabel="da nominare"
+				ex:expression=".codice_ob" 
+				ex:facetLabel="Codice Obiettivo"
+				ex:missingLabel="da individuare"
 				ex:sortMode="count"></div>
 			
 			</div>
-			<div class="col-md-6 column">
+			<div class="col-md-3 column">
 				<div ex:role="facet" 
-				ex:expression=".settore_ufficio" 
-				ex:facetLabel="Settore_Ufficio"
-				ex:missingLabel="da nominare"
+				ex:expression=".codice" 
+				ex:facetLabel="Codice Azione"
+				ex:missingLabel="da individuare"
 				ex:sortMode="count"></div>	
 				
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet" 
-				ex:expression=".programma" 
-				ex:facetLabel="Programma"
-				ex:missingLabel="altro"
+				ex:expression=".entro_il" 
+				ex:facetLabel="Entra la data del"
+				ex:missingLabel="da individuare"
 				ex:sortMode="count">
 				</div>
 			</div>
@@ -155,10 +155,10 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".azione,.programma,.rup,.area,.settore_ufficio,.servizio_funzione,.rif"  
-					ex:columnLabels="Azione, Programma, RUP, Area, Settore_Ufficio, Servizio_Funzione, Rif" 
-					ex:columnFormats="list,list,list,list,list,list,list"
-					ex:sortColumn="7"
+					ex:columns=".codice,.descrizione_linea_azione,.capitolo,.codice_ob,.descrizione_obiettivo,.entro_il"  
+					ex:columnLabels="Codice, Descrizione, Capitolo, Codice_Obiettivo, Descrizione_Obiettivo, Entro_il" 
+					ex:columnFormats="list,list,list,list,list,list"
+					ex:sortColumn="6"
 					ex:sortAscending="true"
 					ex:tableStyler="tableStyler"> 
 					<div ex:role="exhibit-lens">
@@ -166,13 +166,13 @@
 							<table class="table">
 								<tr>
 									<!-- <td><strong><span ex:content=".azione"></strong></td> -->
-									<td><a ex:href-content=".link_azione" ex:onclick-subcontent="trackOutboundLink('.link_azione'); return false;" target="_blank"><strong><span ex:content=".azione" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".programma"></td>
-									<td><span ex:content=".rup"></span></td>
-									<td><span ex:content=".area"></span></td>
-									<td><span ex:content=".settore_ufficio"></span></td>
-									<td><span ex:content=".servizio_funzione"></span></td>
-									<td><span ex:content=".rif"></span></td>
+									<td><a ex:href-content=".codice" ex:onclick-subcontent="trackOutboundLink('.codice'); return false;" target="_blank"><strong><span ex:content=".codice" class="accussì"></strong></span></a></td>
+									<td><span ex:content=".descrizione_linea_azione"></td>
+									<td><span ex:content=".capitolo"></span></td>
+									<td><span ex:content=".codice_ob"></span></td>
+									<td><span ex:content=".descrizione_obiettivo"></span></td>
+									<td><span ex:content="..entro_il"></span></td>
+									<!-- <td><span ex:content=".rif"></span></td> -->
 									<!-- <td><span ex:content=".link_azione"></span></td> -->
 								</tr>
 							</table>
