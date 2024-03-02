@@ -138,7 +138,7 @@
 				ex:sortMode="count"></div>	
 				
 			</div>
-			<div class="col-md-3 column">
+			<div class="col-md-2 column">
 				<div ex:role="facet" 
 				ex:expression=".dal" 
 				ex:facetLabel="Dalla data del"
@@ -154,6 +154,16 @@
 				ex:missingLabel="da individuare"
 				ex:sortMode="count">
 				</div>
+
+				</div>
+			<div class="col-md-2 column">
+				<div ex:role="facet" 
+				ex:expression=".palermo" 
+				ex:facetLabel="Comune Palermo"
+				ex:missingLabel="da individuare"
+				ex:sortMode="count">
+				</div>
+
 			</div>
 		</div>
 		<div class="row clearfix">
@@ -165,10 +175,10 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".codice,.descrizione_linea_azione,.capitolo,.codice_ob,.descrizione_obiettivo,.dal,.entro_il"  
-					ex:columnLabels="Codice, Descrizione, Capitolo, Codice_Obiettivo, Descrizione_Obiettivo, Dal, Entro_il" 
-					ex:columnFormats="list,list,list,list,list,list,list"
-					ex:sortColumn="7"
+					ex:columns=".codice,.descrizione_linea_azione,.capitolo,.codice_ob,.descrizione_obiettivo,.dal,.entro_il,.palermo"  
+					ex:columnLabels="Codice, Descrizione, Capitolo, Codice_Obiettivo, Descrizione_Obiettivo, Dal, Entro_il, Comune Palermo" 
+					ex:columnFormats="list,list,list,list,list,list,list,list"
+					ex:sortColumn="8"
 					ex:sortAscending="true"
 					ex:tableStyler="tableStyler"> 
 					<div ex:role="exhibit-lens">
@@ -183,6 +193,7 @@
 									<td><span ex:content=".descrizione_obiettivo"></span></td>
 									<td><span ex:content=".dal"></span></td>
 									<td><span ex:content=".entro_il"></span></td>
+									<td><span ex:content=".palermo"></span></td>
 									<!-- <td><span ex:content=".link_azione"></span></td> -->
 								</tr>
 							</table>
