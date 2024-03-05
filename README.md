@@ -1,6 +1,8 @@
 # `Elenco` delle scadenze relative alle azioni del Piano triennale per l'informatica 2024-2026
 
-Il link all'elenco è [https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026/](https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026)
+Il link all'elenco delle azioni: [https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026/](https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026)
+
+Il link al [https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2024-2026/index.html](Piano triennale per l'informatica 2024-2026 redatto dall'AGID).
 
 ### Gli strumenti principali usati per realizzare la visualizzazione del `catalogo` sono quattro:
 - [**Simile Exhibit**](http://www.simile-widgets.org/exhibit3/), per realizzare l'interfaccia di navigazione del catalogo;
