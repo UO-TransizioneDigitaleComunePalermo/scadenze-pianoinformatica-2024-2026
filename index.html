@@ -194,10 +194,10 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".codice,.descrizione_linea_azione,.capitolo,.codice_ob,.descrizione_obiettivo,.dal,.entro_il,.palermo"  
-					ex:columnLabels="Codice, Descrizione, Capitolo, Codice Obiettivo, Descrizione Obiettivo, Dalla data, Entro la data, Comune Palermo" 
-					ex:columnFormats="list,list,list,list,list,list,list,list"
-					ex:sortColumn="8"
+					ex:columns=".codice,.descrizione_linea_azione,.capitolo,.codice_ob,.descrizione_obiettivo,.dal,.entro_il,.palermo,.palermo_dettaglio"  
+					ex:columnLabels="Codice, Descrizione, Capitolo, Codice Obiettivo, Descrizione Obiettivo, Dalla data, Entro la data, Palermo, Dettaglio Palermo" 
+					ex:columnFormats="list,list,list,list,list,list,list,list,list"
+					ex:sortColumn="9"
 					ex:sortAscending="true"
 					ex:tableStyler="tableStyler"> 
 					<div ex:role="exhibit-lens">
@@ -213,6 +213,7 @@
 									<td><span ex:content=".dal"></span></td>
 									<td><span ex:content=".entro_il"></span></td>
 									<td><span ex:content=".palermo"></span></td>
+									<td><span ex:content=".palermo_dettaglio"></span></td>
 									<!-- <td><span ex:content=".link_azione"></span></td> -->
 								</tr>
 							</table>
