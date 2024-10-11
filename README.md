@@ -1,4 +1,4 @@
-# `Elenco` delle scadenze relative alle azioni del Piano triennale per l'informatica 2024-2026
+# `Catalogo` delle azioni, e relative scadenze, del Piano triennale per l'informatica 2024-2026
 
 Elenco delle azioni del Piano: [https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026/](https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026)
 
