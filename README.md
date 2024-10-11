@@ -1,6 +1,6 @@
 # `Catalogo` delle azioni, e relative scadenze, del Piano triennale per l'informatica 2024-2026
 
-Elenco delle azioni del Piano: [https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026/](https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026)
+[https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026/](https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026)
 
 ### Riferimenti
 Il Piano redatto dall'AGID: [Piano triennale per l'informatica 2024-2026](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2024-2026/index.html).
